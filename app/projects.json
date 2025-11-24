@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "title": "Gospel Companion",
+    "description": "A cutting-edge digital assistant designed to enhance the experience of studying bible lessons and gospel materials.",
+    "githubLink": "https://github.com/ayobami11/gospel-companion",
+    "websiteLink": "https://gospelcompanion.vercel.app/",
+    "tools": ["Next.js", "Tailwind CSS", "Shadcn UI", "Zod"]
+  },
+  {
+    "id": "2",
+    "title": "Tweetteer",
+    "description": "A clone of the popular social media platform, X (formerly, Twitter), pre-Elon, built using the MERN stack.",
+    "githubLink": "https://github.com/ayobami11/twitter-frontend",
+    "websiteLink": "https://tweetteer.netlify.app",
+    "tools": [
+      "React.js",
+      "Express",
+      "Material UI",
+      "MongoDB",
+      "Styled Components"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Todo",
+    "description": "A full-stack application which allows users to create and modify tasks. Users can also filter tasks and select their preferred color theme.",
+    "githubLink": "https://github.com/ayobami11/todo",
+    "websiteLink": "https://todo-app-ayo.vercel.app",
+    "tools": ["Next.js", "Tailwind CSS", "MongoDB", "Next Auth"]
+  },
+  {
+    "id": "4",
+    "title": "Space Tourism",
+    "description": "A multi-page website showcasing basic information about a space travel agency.",
+    "githubLink": "https://github.com/ayobami11/space-tourism",
+    "websiteLink": "https://space-tourism-ayo.vercel.app",
+    "tools": ["Next.js", "CSS Modules", "Swiper JS"]
+  },
+  {
+    "id": "5",
+    "title": "Compress IPv6 Address",
+    "description": "A tool that converts IPv6 addresses from the preferred format to the compressed format.",
+    "githubLink": "https://github.com/ayobami11/compress-ipv6-address",
+    "websiteLink": "https://compress-ipv6-address.vercel.app",
+    "tools": ["Next.js", "Shadcn UI", "Tailwind CSS"]
+  },
+  {
+    "id": "6",
+    "title": "Rock, Paper, Scissors",
+    "description": "A web app implementation of the classic Rock, Paper, Scissors game — with a twist.",
+    "githubLink": "https://github.com/ayobami11/rock-paper-scissors",
+    "websiteLink": "https://rock-paper-scissors-ls.netlify.app/",
+    "tools": ["React.js", "Styled Components", "Framer Motion"]
+  },
+  {
+    "id": "7",
+    "title": "Where In The World?",
+    "description": "A simple web application which displays real-time information about the countries of the world.",
+    "githubLink": "https://github.com/ayobami11/countries-app",
+    "websiteLink": "https://where-in-the-world-react.netlify.app/",
+    "tools": ["React.js", "Styled Components"]
+  },
+  {
+    "id": "8",
+    "title": "Advice Generator",
+    "description": "A single-page website that autogenerates random advice with the Advice Slip API.",
+    "githubLink": "https://github.com/ayobami11/30DaysOfCode/tree/main/day-17",
+    "websiteLink": "https://ayobami11.github.io/30DaysOfCode/day-17/",
+    "tools": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": "9",
+    "title": "URL Shortener",
+    "description": "Online tool that accepts long website URLs and generates shortened links that are shareable and easy to remember.",
+    "githubLink": "https://github.com/ayobami11/url-shortener",
+    "websiteLink": "https://url-shrtener.netlify.app",
+    "tools": ["React.js", "Styled Components", "Shortly API"]
+  },
+  {
+    "id": "10",
+    "title": "Calculator",
+    "description": "A simple calculator that performs basic arithmetic operations.",
+    "githubLink": "https://github.com/ayobami11/calculator",
+    "websiteLink": "https://ayo-calc.netlify.app",
+    "tools": ["React.js", "Styled Components"]
+  }
+]
