@@ -7,7 +7,7 @@ import { Footer } from "@/components/features/footer";
 export default function HomePage() {
   return (
     <>
-      <ScrollIndicator />
+      
       <Hero />
       <Header />
       <Main />

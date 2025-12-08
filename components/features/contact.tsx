@@ -135,7 +135,7 @@ export const Contact = () => {
           <motion.a
             href="mailto:ayobami.tunwase@gmail.com"
             whileHover={{ y: -2 }}
-            className="relative inline-block text-3xl"
+            className="relative inline-block text-xl md:text-3xl"
           >
             ayobami.tunwase@gmail.com
             <span className="absolute left-0 bottom-0 h-0.5 w-0 transition-all bg-primary duration-500 ease-in-out group-hover:w-full"></span>

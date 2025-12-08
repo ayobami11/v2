@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+
+import { useEffect } from "react";
 
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/mode-toggle";
@@ -55,6 +59,15 @@ export const HamburgerMenu = ({ isOpen, closeMenu }: HamburgerMenuProps) => {
     },
   };
 
+  // Prevent user from scrolling when hamburger menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [isOpen]);
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -63,9 +76,9 @@ export const HamburgerMenu = ({ isOpen, closeMenu }: HamburgerMenuProps) => {
           animate="open"
           exit="closed"
           variants={menuVariants}
-          className="fixed top-16 left-0 right-0 h-screen bg-stone-500/95 backdrop-blur-3xl border-b border-slate-700 z-40 shadow-2xl md:hidden"
+          className="fixed inset-0 top-16 min-h-[calc(100vh-64px)] overflow-y-auto border-b border-slate-700 md:hidden"
         >
-          <motion.nav className="max-w-7xl space-y-6 mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <motion.nav className="w-full max-w-7xl space-y-6 mx-auto bg-stone-500/95 backdrop-blur-3xl shadow-2xl px-4 sm:px-6 lg:px-8 py-8">
             <motion.ul className="space-y-6">
               {menuItems.map((item, index) => (
                 <motion.li key={index} variants={itemVariants}>
@@ -80,7 +93,13 @@ export const HamburgerMenu = ({ isOpen, closeMenu }: HamburgerMenuProps) => {
               ))}
               <motion.li variants={itemVariants}>
                 <Button asChild>
-                  <a href="#">Resume</a>
+                  <a
+                    href="/assets/files/Ayobami_Tunwase_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
                 </Button>
               </motion.li>
             </motion.ul>
